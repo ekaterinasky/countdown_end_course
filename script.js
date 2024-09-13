@@ -1,7 +1,7 @@
 'use strict'
 
 const currentDate = new Date();
-const targetDate = new Date('2024-09-01T23:59:59');
+const targetDate = new Date('2024-12-31T23:59:59');
 const difference = targetDate - currentDate;
 
 function updateCountdown() {
